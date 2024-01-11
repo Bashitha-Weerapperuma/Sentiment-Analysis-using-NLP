@@ -1,0 +1,21 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Productd REST API",
+  "main": "server.js",
+  "scripts": {
+    
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ":Lahiru",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "node-cron": "^3.0.3",
+    "nw-gyp": "^3.6.6",
+    "sqlite3": "^5.1.6"
+  }
+}
